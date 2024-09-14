@@ -11,5 +11,5 @@ push.setVapidDetails(
   vapidKeys.privateKey
 )
 
-let sub =  {"endpoint":"https://updates.push.services.mozilla.com/wpush/v2/gAAAAABm5AB1ZQAKug5ScWEsvSjBB93NFd70PXIe7-LX10OKVSwCOyK4Ww18W1H4RNEyT-c6wf1p5_ieSUEJTWJlhfdAdDk4Zvofrjz4ndVuePjbXaECBiKtqfyJQcueJsu3Pgt7gzIpa_3f9N3-QTjDohnFFvJ4-i2RAw5hU6er6D2RJATZ8FI","expirationTime":null,"keys":{"auth":"iZFz-EZxn2NK4z7iDldDMA","p256dh":"BECVxRVerx3baZESNTzleZzBW6VcbNg1cSVWnEMEhUoQxqQzhGqdNoEhZsZYzbDSn0ptUOWyw-7cpA7bd6XEfis"}}
+let sub =  {"endpoint":"https://updates.push.services.mozilla.com/wpush/v2/gAAAAABm5R8dTGiAYyFXcgjkL6o3dEwzO8a60Q_pnDDK5ozv3Kec7vwEfEqOiJxOoTjuJB09CsU_q2Z5mOjkBZYXy7HErapKhrFP0tJGVnhlmbGAOh1soqBoW-BYzbLoDQKDyKZL1gzQQfnRKkpFj1EKqw-cXIXx4vNbuJhDeDYXI62hJDgZjVc","expirationTime":null,"keys":{"auth":"PmMUutQjY1IwLTAvFbKB0g","p256dh":"BE9ppkYbtQDQR-vJRnwRW2u61EeQFnf2aczChdXcsn_I4pUG1PvaseHybbovTO8STUxUn-WSzLgtYmnXv5GPeC0"}}
 push.sendNotification(sub, 'Chao ae nhe')
